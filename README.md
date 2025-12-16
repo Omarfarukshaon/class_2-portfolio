@@ -1,6 +1,6 @@
 # Omar Portfolio
 
-A simple, semantic, and responsive HTML/CSS portfolio. Built with VS Code and deployed via GitHub Pages.
+A simple, semantic, and responsive HTML/CSS portfolio. Built with VS Code and deployed via Netlify Pages.
 
 ## Pages
 - `index.html` — main portfolio
