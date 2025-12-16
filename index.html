@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Portfolio | Omar</title>
+  <link rel="icon" href="./favicon.ico" />
+  <link rel="preload" as="image" href="./images/profile.jpg" />
+  <link rel="stylesheet" href="./styles/main.css" />
+</head>
+<body>
+  <a class="sr-only" href="#main">Skip to content</a>
+
+  <nav aria-label="Primary">
+    <ul class="nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="./explore.html">Explore</a></li>
+      <li><a href="./images.html">Images</a></li>
+      <li><a href="./table.html">Table</a></li>
+    </ul>
+  </nav>
+
+  <header id="home" class="hero">
+    <img src="./images/profile.jpg" alt="Portrait of Omar" width="180" height="180" class="avatar" />
+    <div class="hero-text">
+      <h1>Omar Faruk Shaon</h1>
+      <p class="subtitle">Web Development Learner • CSE Student </p>
+      <p>Focused on clarity, accessibility, and clean code. I build simple, semantic, and responsive web pages.</p>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="about" class="section">
+      <h2>About me</h2>
+      <p>
+        Hello! I’m Omar Faruk, a <strong>CSE student</strong> passionate about <em>web fundamentals</em>,
+        clear communication, and semantic HTML. I learn by building and sharing.
+      </p>
+
+      <h3>Education</h3>
+      <ul>
+        <li>B.Sc. in Computer Science and Engineering (5th Semester)</li>
+        <li>Web Development foundations (HTML, CSS, Git, GitHub)</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="section">
+    <h2>Technical Skills</h2>
+    <table class="table" aria-describedby="skills-caption">
+        <caption id="skills-caption">Skills overview (self‑assessed)</caption>
+        <thead>
+        <tr>
+            <th scope="col">Skill</th>
+            <th scope="col">Level</th>
+            <th scope="col">Experience</th>
+            <th scope="col">Practical Application</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>HTML5</td>
+            <td>Intermediate</td>
+            <td>3 classes</td>
+            <td>Built semantic portfolio pages and practice exercises</td>
+        </tr>
+        <tr>
+            <td>CSS3</td>
+            <td>Beginner</td>
+            <td>2 classes</td>
+            <td>Styled layouts, navigation menus, and responsive sections</td>
+        </tr>
+        <tr>
+            <td>Git & GitHub</td>
+            <td>Intermediate</td>
+            <td>Practice with branches and commits</td>
+            <td>Version control for portfolio project, PR workflow</td>
+        </tr>
+        </tbody>
+    </table>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Let’s connect and build something meaningful.</p>
+      <ul>
+        <li>Email: <a href="mailto:omar@example.com">omar@example.com</a></li>
+        <li>GitHub: <a href="https://github.com/Omarfarukshaon" target="_blank" rel="noopener">github.com/your-username</a></li>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Omar. All rights reserved.</p>
+    <p><small>Made with semantic HTML and responsive CSS.</small></p>
+    <p>Last updated: <time datetime="2025-12-16">December 16, 2025</time></p>
+  </footer>
+</body>
+</html>
